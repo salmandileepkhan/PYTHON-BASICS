@@ -1,0 +1,37 @@
+variables===>reserved memory location to store some values
+message="hello world"
+print(message)
+hello world
+type(message)
+str
+message=5
+​
+print(message)
+5
+del(message)
+print(message)
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+Cell In [8], line 1
+----> 1 print(message)
+
+NameError: name 'message' is not defined
+
+VARIABLES
+Casing conventions
+
+pascal casing
+Numberofpeople=5
+
+Camel casing
+numberofpeople=5
+
+snake case
+number_of_people=5
+
+Pascal casing for class names Camel casing for variables and function names
+
+Constants
+CONST_EXAMPLE =50
+CONST_EXAMPLE =50
+​
