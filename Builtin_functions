@@ -1,0 +1,93 @@
+BOOLEAN TYPE IN PYTHON
+
+bool(1)
+True
+0
+bool(0)
+False
+str1="12345"
+str1.isdecimal()
+True
+str1="12345asdfhhgggg"
+str1.isalpha()
+False
+result
+result=5>3
+print(result)
+True
+result=2 in [1,2,3,4,5]
+print(result)
+True
+
+
+NUMERIC TYPE IN PYTHON
+
+type(4)
+int
+type(9.67)
+float
+rt math
+import math
+92.45
+math.ceil(92.45)
+93
+23.5
+math.floor(23.5)
+23
+-23
+math.fabs(-23)
+23.0
+4
+math.factorial(4)
+24
+1,23,4,5,
+math.fsum([1,23,4,5,])
+33.0
+8,12
+math.gcd(8,12)
+4
+2
+math.exp(2)
+7.38905609893065
+10,2
+math.log(10,2)
+3.3219280948873626
+2,3
+math.pow(2,3)
+8.0
+9
+math.sqrt(9)
+3.0
+10
+math.sin(10)
+-0.5440211108893698
+.57)
+math.degrees(1.57)
+89.95437383553924
+math.pi
+math.pi
+3.141592653589793
+
+
+Staistical function modules
+
+rt statistics as stat
+import statistics as stat
+1,2,34,5,
+stat.mean([1,2,34,5,])
+10.5
+a
+stat.median([1,2,3,4,56,78])
+3.5
+2,3,45,67,78
+stat.median_low([2,3,45,67,78])
+45
+2,3,4,4,4,4,4,5,6
+stat.mode([2,3,4,4,4,4,4,5,6])
+4
+([12,23,4,5,67,89])
+stat.stdev([12,23,4,5,67,89])
+35.936981880323046
+stat.variance([12,23,4,5,67,89])
+1291.4666666666667
+​
