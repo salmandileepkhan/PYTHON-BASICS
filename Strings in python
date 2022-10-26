@@ -1,0 +1,47 @@
+Strings in python
+
+str
+str="HELLO" "WORLD"
+print(str)
+HELLOWORLD
+i
+str1="apple"
+for i in str1:
+    print(i)
+a
+p
+p
+l
+e
+
+str1="salman dileepkhan"
+str1
+len(str1)
+17
+
+
+i="salman dileepkhan"
+result="b" in i
+​
+
+result
+False
+
+i="salman dileepkhan"
+i.count("a")
+3
+
+i="salman dileepkhan"
+i.find("a")
+1
+isalnum
+i.isalnum
+<function str.isalnum()>
+i.isalnum()
+False
+i.isalpha()
+False
+i="12345"
+i.isdecimal()
+True
+​
