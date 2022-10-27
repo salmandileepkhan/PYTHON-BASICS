@@ -1,0 +1,93 @@
+
+Markdown
+listofnum=[1,2,3,4]
+listofnum=[1,2,3,4]
+listofnum
+[1, 2, 3, 4]
+
+lst=['cat','dog','boy']
+lst
+['cat', 'dog', 'boy']
+
+APPENDING A NEW VALUE IN THE LIST
+
+lst.append('goat')
+lst
+['cat', 'dog', 'boy', 'goat']
+
+
+appending something at a particular position
+
+lst.insert(2,'salman')
+lst
+['cat', 'dog', 'salman', 'boy', 'goat']
+lst.index("salman")
+2
+
+sorting of a list
+
+ascending sort
+
+lst=[1,201,3,48,5,86,701,8]
+lst.sort()
+lst
+[1, 3, 5, 8, 48, 86, 201, 701]
+
+desending sort
+
+lst.sort(reverse=True)
+lst
+[701, 201, 86, 48, 8, 5, 3, 1]
+
+REVERSING A LIST
+
+lst.reverse()
+lst
+[1, 3, 5, 8, 48, 86, 201, 701]
+
+
+
+LIST INBUIT FUNCTIONS
+
+min(lst)
+1
+max(lst)
+701
+sal=[1,2,3,4,6,7]
+sal=[1,2,3,4,6,7]
+
+
+len(sal)
+6
+
+sal=['cat','dog','sheep']
+if 'dog' in sal:
+    print('sal contain dog')
+sal contain dog
+
+sad=[1,3,4,5,6,7,9]
+for i in reversed(sad):
+    print(i)
+9
+7
+6
+5
+4
+3
+1
+
+gad=['cat','dog','buffalo']
+
+print(gad)
+['cat', 'dog', 'buffalo']
+555,555,78,78,0,89,66,66,66,78
+
+mad=[555,555,78,78,0,89,66,66,66,78]
+mad
+mad
+[555, 555, 78, 78, 0, 89, 66, 66, 66, 78]
+d
+unique=set(mad)
+ique
+unique
+{0, 66, 78, 89, 555}
