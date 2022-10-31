@@ -1,0 +1,74 @@
+
+Code
+while loop
+while(expression):
+    #statements
+    
+import time
+import time
+.5
+count=5
+while(count>0):
+    print(count)
+    count-=1
+    time.sleep(.5)
+​
+5
+4
+3
+2
+1
+
+FOR-LOOP
+1
+sal=[1,2,3,4,5,6]
+for i in sal:
+    print(i)
+    time.sleep(1)
+1
+2
+3
+4
+5
+6
+l
+
+sal=["a","b","c","d"]
+for i in range(len(sal)):
+   print(i)
+0
+1
+2
+3
+,i
+for i in range(len(sal)):
+    print(sal[i],":",i)
+a : 0
+b : 1
+c : 2
+d : 3
+1
+sal=["a","b","c","d"]
+sal1=[1,2,3,4]
+for i,j in zip(sal,sal1):
+    print(i,":",j)
+    time.sleep(1)
+a : 1
+b : 2
+c : 3
+d : 4
+arch
+
+fruit=["apple","mango","banana","grape","guava","litchi"]
+for i in fruit:
+    print("FOUND :",i)
+    time.sleep(1)
+    if(i=="grape"):
+        print("stopping the search as we found grape")
+        break
+    
+FOUND : apple
+FOUND : mango
+FOUND : banana
+FOUND : grape
+stopping the search as we found grape
