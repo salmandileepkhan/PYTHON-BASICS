@@ -1,0 +1,16 @@
+def multiply(a,b):
+    c=a*b
+    return c
+x=multiply(2,3)
+print("the result",x)
+​
+the result 6
+def sample(*args):
+    for i in  args:
+        print(i)
+             
+2,44,6
+sample(2,44,6)
+2
+44
+6
